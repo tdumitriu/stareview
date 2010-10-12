@@ -1,0 +1,180 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color: #52616F;
+    background: white;
+}
+.title {
+    font-family: Arial, sans-serif;
+    font-size:56px;
+    font-weight:bold;
+    color: #52616F;
+}
+.menu {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.message {
+    height:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: red;
+}
+.option {
+    width:50px;
+    margin-right:10px;
+    padding:4px;
+    text-align:center;
+    float:left;
+    cursor:pointer;
+    color: yellow;
+    background-color: #212f6F;
+    border:1px solid #ccc;
+    border-bottom:1px solid #212f6F;
+}
+.line {
+    border-bottom:1px solid #212f6F;
+}
+.score {
+    font-size:126px;
+    color: #52616F;
+}
+.decim {
+    font-size:18px;
+    font-weight:bold;
+    color: #52616F;
+}
+.stars {
+    width: 32pt;
+    font-size:14px;
+    color: black;
+}
+.nbstars {
+    width: 24pt;
+    font-size:14px;
+    font-weight:bold;
+    color: blue;
+}
+.star_no {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    color: #52616F;
+    text-align:right;
+}
+a.linkText {
+    color : #444444;
+    font-family : arial;
+    font-size : 11px;
+    font-weight : bold;
+    text-decoration : none;
+}
+.summary_table {
+    display:none;
+    width:160px;
+    height:130px;
+    background:#a3d8ff;
+    text-align:center;
+}
+.history {
+    color : #444444;
+    font-family : arial;
+    font-size : 14px;
+    text-decoration : none;
+}
+#tt {
+    position:absolute;
+    display:block;
+    background:url(../img/tt_left.gif) top left no-repeat
+}
+#tttop {
+    display:block;
+    height:5px;
+    margin-left:5px;
+    background:url(../img/tt_top.gif) top right no-repeat;
+    overflow:hidden
+}
+#ttcont {
+    display:block;
+    padding:2px 12px 3px 7px;
+    margin-left:5px;
+    background:#F4E7B0;
+    color:#000000
+}
+#ttbot {
+    display:block;
+    height:5px;
+    margin-left:5px;
+    background:url(../img/tt_bottom.gif) top right no-repeat;
+    overflow:hidden
+}
+
+#ct {
+    position:absolute;
+    display:block;
+}
+#cttop {
+    display:block;
+    float:left;
+}
+#cttopleft {
+    display:block;
+    height:12px;
+    width:12px;
+    background:url(../img/ct/ct_topleft.png);
+}
+#cttopcenter {
+    display:block;
+    height:12px;
+    float:none;
+    background-image:url('../img/ct/ct_top.png');
+    background-repeat:repeat-x;
+}
+#cttopright {
+    display:block;
+    height:12px;
+    width:12px;
+    background:url(../img/ct/ct_topright.png);
+}
+#ctcenter {
+    display:block;
+    float:none;
+}
+#ctcenterleft {
+    display:block;
+    width:12px;
+    background-image:url('../img/ct/ct_centerleft.png');
+    background-repeat:repeat-y;
+}
+#ctcentercenter {
+    display:block;
+    float:none;
+    background:#F4E7B0;
+}
+#ctcenterright {
+    display:block;
+    width:12px;
+    background-image:url('../img/ct/ct_centerright.png');
+}
+#ctbottom {
+    display:block;
+    float:right;
+}
+#ctbottomleft {
+    display:block;
+    height:12px;
+    width:12px;
+    background:url(../img/ct/ct_bottomleft.png)
+}
+#ctbottomcenter {
+    display:block;
+    height:10px;
+    background-image:url('../img/ct/ct_bottom.png');
+    background-repeat:repeat-x;
+}
+#ctbottomright {
+    display:block;
+    height:12px;
+    width:12px;
+    background:url(../img/ct/ct_bottomright.png)
+}

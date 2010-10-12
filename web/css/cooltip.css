@@ -1,0 +1,60 @@
+div.base-layer {
+  position: fixed;
+  right: auto; bottom: auto;
+  left: 1px;
+  top:  1px;
+}
+
+div.table-row {
+  width: auto;
+  overflow:auto;
+}
+
+div.c11 {
+  float: left; width: 10px; height: 10px;
+  background-image:url('../img/cooltip/default/11.png');
+}
+
+div.c12 {
+  float: left; width: 200px; height: 10px;
+  background-image:url('../img/cooltip/default/12.png');
+  background-repeat:repeat-x;
+}
+
+div.c13 {
+  float: right; width: 10px; height: 10px;
+  background-image:url('../img/cooltip/default/13.png');
+}
+
+div.c21 {
+  float: left; width: 10px; height:200px;
+  background-image:url('../img/cooltip/default/21.png');
+  background-repeat:repeat-y;
+}
+
+div.c22 {
+  float: left;width: 200px; height:200px;
+  background-color: #ffffff; overflow:auto;
+}
+
+div.c23 {
+  float: right; width: 10px; height:200px;
+  background-image:url('../img/cooltip/default/23.png');
+  background-repeat:repeat-y;
+}
+
+div.c31 {
+  float: left; width: 10px; height: 10px;
+  background-image:url('../img/cooltip/default/31.png');
+}
+
+div.c32 {
+  float: left; width: 200px; height: 10px;
+  background-image:url('../img/cooltip/default/32.png');
+  background-repeat:repeat-x;
+}
+
+div.c33 {
+  float: right; width: 10px; height: 10px;
+  background-image:url('../img/cooltip/default/33.png');
+}
